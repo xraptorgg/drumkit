@@ -11,7 +11,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 40px;
+    margin-bottom: 40px;
 }
 
 .hero-head {
@@ -22,7 +22,7 @@ body {
 }
 
 .hero-text {
-    margin-top: 20px;
+    margin-top: 15px;
     color : #100720;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
@@ -30,20 +30,37 @@ body {
 }
 
 .drums {
-    margin-top: 40px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.drum-row {
+    margin-top: 25px;
 }
 
 
 .drum-keys {
     background-color: #FA9494;
-    padding: 25px 35px;
+    height: 100px;
+    width: 100px;
     margin-right: 28px;
-    border-radius: 5px;
+    border-radius: 10px;
     border: 1.6px solid #100720;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 28px;
     color: #100720;
+    transition: 0.09s;
+}
+
+.playing {
+    transform: scale(1.07);
+    background-color: #EB1D36;
+    border: 2.1px solid #850E35;
+}
+
+.key-name {
+    margin-top: 5px;
+    display: block;
+    font-size: 16px;
 }

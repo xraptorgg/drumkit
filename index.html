@@ -18,17 +18,53 @@
         </div>
         <div class = "button-container">
             <div class = "drums">
-                <button class = "drum-keys">A</button>
-                <button class = "drum-keys">S</button>
-                <button class = "drum-keys">D</button>
-                <button class = "drum-keys">F</button>
-                <button class = "drum-keys">G</button>
-                <button class = "drum-keys">H</button>
-                <button class = "drum-keys">J</button>
-                <button class = "drum-keys">K</button>
-                <button class = "drum-keys">L</button>
+                <div class = "drum-row">
+                    <button class = "drum-keys drum-key-a">A<span class = "key-name">clap</span></button>
+                    <button class = "drum-keys drum-key-s">S<span class = "key-name">hihat</span></button>
+                    <button class = "drum-keys drum-key-d">D<span class = "key-name">kick</span></button>
+                </div>
+                <div class = "drum-row">
+                    <button class = "drum-keys drum-key-f">F<span class = "key-name">openhat</span></button>
+                    <button class = "drum-keys drum-key-g">G<span class = "key-name">boom</span></button>
+                    <button class = "drum-keys drum-key-h">H<span class = "key-name">ride</span></button>
+                </div>
+                <div class = "drum-row">
+                    <button class = "drum-keys drum-key-j">J<span class = "key-name">snare</span></button>
+                    <button class = "drum-keys drum-key-k">K<span class = "key-name">tom</span></button>
+                    <button class = "drum-keys drum-key-l">L<span class = "key-name">tink</span></button>
+                </div>
             </div>
         </div>
+        <div class = "audio-files">
+            <audio class = "drum-audio-a">
+                <source src = "sounds/clap.wav">
+            </audio>
+            <audio class = "drum-audio-s">
+                <source src = "sounds/hihat.wav">
+            </audio>
+            <audio class = "drum-audio-d">
+                <source src = "sounds/kick.wav">
+            </audio>
+            <audio class = "drum-audio-f">
+                <source src = "sounds/openhat.wav">
+            </audio>
+            <audio class = "drum-audio-g">
+                <source src = "sounds/boom.wav">
+            </audio>
+            <audio class = "drum-audio-h">
+                <source src = "sounds/ride.wav">
+            </audio>
+            <audio class = "drum-audio-j">
+                <source src = "sounds/snare.wav">
+            </audio>
+            <audio class = "drum-audio-k">
+                <source src = "sounds/tom.wav">
+            </audio>
+            <audio class = "drum-audio-l">
+                <source src = "sounds/tink.wav">
+            </audio>
+        </div>
     </main>
+    <script src = "script.js"></script>
 </body>
 </html>
